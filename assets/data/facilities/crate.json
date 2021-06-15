@@ -1,0 +1,21 @@
+{
+	"type": "obstacle",
+	"size": [1, 1],
+	"durability": 9,
+	"resistance": 2,
+	"geometry": "volumetric",
+	"height":0.625,
+	"listeners": [
+		{
+			"event": "destroy",
+			"properties": {
+				"target": "self",
+				"source": "any"
+			},
+			"action": "drop",
+			"arguments": {
+				"loot": "crate"
+			}
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"size": [1, 1],
+	"type": "floorplate",
+	"geometry": "flat",
+	"listeners": [
+		{
+			"event": "collision",
+			"properties": {
+				"target": ["player", "enemy"],
+			},
+
+			"action": "add_effect",
+			"arguments": {
+				"target": "event.target",
+				"id": "speed_up",
+				"power": 1,
+				"duration": 2500
+			},
+			"cooldown": 0
+		}
+	]
+}

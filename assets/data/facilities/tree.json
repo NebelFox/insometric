@@ -1,0 +1,7 @@
+{
+	"type": "obstacle",
+	"size": [2, 1],
+	"durability": -1,
+	"resistance": 0,
+	"geometry": "flat"
+}

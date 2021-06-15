@@ -1,0 +1,13 @@
+# import pygame
+# import engine
+# stream: engine.EventStream
+# enum: engine.Enum
+# clock: pygame.time.Clock
+# surface: pygame.surface.Surface
+stream = None
+enum = None
+clock = None
+surface = None
+matrix = None
+object_drawer = None
+component_master = None

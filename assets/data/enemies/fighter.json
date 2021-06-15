@@ -1,0 +1,37 @@
+{
+	"health": {
+		"type": "random-int",
+		"min": 18,
+		"max": 24,
+		"floorMultiplier": 1.08
+	},
+	"xp": {
+		"type": "random-float",
+		"min": 3.0,
+		"max": 5.0,
+		"floorMultiplier": 1.08
+	},
+	"weapon": "baseball_bat",
+	"skills": [
+		{
+			"id": "charge",
+			"properties": {
+				"damage": {
+					"type": "random-int",
+					"min": 6,
+					"max": 8,
+					"floorMultiplier": 1.1
+				},
+				"duration": {
+					"type": "random-float",
+					"min": 1.2,
+					"max": 2.1
+				},
+				"speed": {
+					"type": "scalar-float",
+					"value": 9.5
+				}
+			}
+		}
+	]
+}
